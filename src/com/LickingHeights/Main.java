@@ -22,12 +22,25 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
     int N;
     int rStar;
-    double  _p;
+    double f _p;
     int numberOfExoplanets;
     double f_l;
     double f_i;
     double f_c;
     int L;
+    System.out.println("how many species of life do you think is outside our planet?");
+        System.out.println("how many stars do per year do you think are formed?");
+        System.out.println("out of that amount of stars how many have planets?");
+        System.out.println("out of those planets how many have exoplanets?");
+        System.out.println("out of those exoplanets how many form life?");
+        System.out.println("also out of those exoplanets how many form intelligent life?");
+        System.out.println("out of that amount of intelligent life how many can communicate");
+        System.out.println("how long will this lifetime last?");
+
+        //todo initialize the scanner to take input and commit
+        // asf for rStar number store in the rStar variable and commit
+        //asf for f_p fraction store in the f_p variable and commit
+        // todo complete each of the variables storing them correctly and committing each time
 
         N = rStar * f_p * numberOfExoplanets * f_l *f_i * f_c * L;
     System.out.println("The number of intelligent species that are out there \n" + " and can communicate with us is:" + N);
