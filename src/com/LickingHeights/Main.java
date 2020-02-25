@@ -38,7 +38,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         tow = new Scanner(System.in);
         System.out.println("how many stars per year do you think are formed (1-5)?");
         rStar = tow.nextInt();
-        System.out.println("out of that amount of stars how many have planets?");
+        System.out.println("out of that amount of stars how many have planets (0.2-0.5)?");
+        f_p = tow.nextDouble();
         System.out.println("out of those planets how many have exoplanets?");
         System.out.println("out of those exoplanets how many form life?");
         System.out.println("also out of those exoplanets how many form intelligent life?");
