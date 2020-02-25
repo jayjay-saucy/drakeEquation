@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-Scanner jack;
+drakeEquation();
 
-jack = new Scanner(System.in);
- 
+
+
     }
 
     public static void drakeEquation(){
@@ -33,9 +33,11 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     double f_i;
     double f_c;
     int L;
+        Scanner tow;
 
-        System.out.println("how many species of life do you think is outside our planet?");
-        System.out.println("how many stars do per year do you think are formed?");
+        tow = new Scanner(System.in);
+        System.out.println("how many stars per year do you think are formed (1-5)?");
+        rStar = tow.nextInt();
         System.out.println("out of that amount of stars how many have planets?");
         System.out.println("out of those planets how many have exoplanets?");
         System.out.println("out of those exoplanets how many form life?");
