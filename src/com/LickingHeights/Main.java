@@ -1,10 +1,15 @@
 package com.LickingHeights;
 
+
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+Scanner jack;
 
-
+jack = new Scanner(System.in);
+ 
     }
 
     public static void drakeEquation(){
@@ -22,13 +27,14 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
     int N;
     int rStar;
-    double f _p;
+    double f_p;
     int numberOfExoplanets;
     double f_l;
     double f_i;
     double f_c;
     int L;
-    System.out.println("how many species of life do you think is outside our planet?");
+
+        System.out.println("how many species of life do you think is outside our planet?");
         System.out.println("how many stars do per year do you think are formed?");
         System.out.println("out of that amount of stars how many have planets?");
         System.out.println("out of those planets how many have exoplanets?");
@@ -47,3 +53,4 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
     }
 
 }
+
