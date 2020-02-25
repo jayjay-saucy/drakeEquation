@@ -47,6 +47,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         System.out.println("also out of those exoplanets how many form intelligent life?");
         f_i = tow.nextDouble();
         System.out.println("out of that amount of intelligent life how many can communicate");
+        f_c = tow.nextDouble();
         System.out.println("how long will this lifetime last?");
 
         //todo initialize the scanner to take input and commit
