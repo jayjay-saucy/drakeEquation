@@ -48,7 +48,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         f_i = tow.nextDouble();
         System.out.println("out of that amount of intelligent life how many can communicate (1-5)?");
         f_c = tow.nextDouble();
-        System.out.println("how long will this lifetime last?");
+        System.out.println("how long will this lifetime last (1000-100,000,000)?");
         L = tow.nextInt();
 
         //todo initialize the scanner to take input and commit
