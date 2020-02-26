@@ -40,15 +40,16 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         rStar = tow.nextInt();
         System.out.println("out of that amount of stars how many have planets (0.2-0.5)?");
         f_p = tow.nextDouble();
-        System.out.println("out of those planets how many have exoplanets?");
+        System.out.println("out of those planets how many have exoplanets (1-5)?");
         numberOfExoplanets = tow.nextInt();
-        System.out.println("out of those exoplanets how many form life?");
+        System.out.println("out of those exoplanets how many form life (1-5)?");
         f_l = tow.nextDouble();
-        System.out.println("also out of those exoplanets how many form intelligent life?");
+        System.out.println("also out of those exoplanets how many form intelligent life (1-5)?");
         f_i = tow.nextDouble();
-        System.out.println("out of that amount of intelligent life how many can communicate");
+        System.out.println("out of that amount of intelligent life how many can communicate (1-5)?");
         f_c = tow.nextDouble();
         System.out.println("how long will this lifetime last?");
+        L = tow.nextInt();
 
         //todo initialize the scanner to take input and commit
         // asf for rStar number store in the rStar variable and commit
